@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RamyaKeerthanaPotla/fitnesstracker/issues"
   },
-  "homepage": "https://github.com/RamyaKeerthanaPotla/fitnesstracker#readme"
+  "homepage": "https://github.com/RamyaKeerthanaPotla/fitnesstracker#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
 }
