@@ -18,6 +18,7 @@
   "homepage": "https://github.com/RamyaKeerthanaPotla/fitnesstracker#readme",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "express": "^4.16.3",
     "jquery": "^3.3.1",
     "popper": "^1.12.9"
   }
