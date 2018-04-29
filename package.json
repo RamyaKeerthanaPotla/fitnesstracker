@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server server/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,12 @@
     "express": "^4.16.3",
     "jquery": "^3.3.1",
     "popper": "^1.12.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "@types/jquery": "^3.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.9"
   }
 }
