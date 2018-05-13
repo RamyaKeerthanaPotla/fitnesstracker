@@ -1,0 +1,8 @@
+$primary-background: rgb(196, 7, 7);
+$primary-backgroundD: #350508;
+$secondary-background:rgb(6, 41, 76);
+
+
+#grad {
+    background: linear-gradient(to bottom right, $primary-backgroundD, $secondary-background);
+  }

@@ -1,0 +1,30 @@
+<div class="row">
+<div class="col" style="padding:0px 100px">
+<br>
+<br>
+<h2 class="page-header" align="center">Login</h2>
+
+  <div class="col">
+      <form class="form-signin" >
+      <div class="form-group">
+        <label for="Username">Username</label>
+        <input type="text" class="form-control" placeholder="Enter Username" #name>
+      </div>
+      <div class="form-group">
+      <label for="Password">Password</label>
+      <input type="password" class="form-control" placeholder=" Enter Password"  #password>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <a class="btn btn-primary" (click)="login(name.value, password.value)" >Log in</a>
+</form>
+</div><br><br>
+<div class="col" >
+  <button class="btn btn-block border-success bg-light" (click)="loginfb()"  >Login with Facebook</button>
+  <button class="btn btn-block border-success bg-light" (click)="logingoogle()" >Login with Google</button>
+</div><br>
+</div>
+</div>
