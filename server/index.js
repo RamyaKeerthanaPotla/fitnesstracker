@@ -13,5 +13,5 @@ server.use("/client", express.static("./jquery-mockup"))
 server.use("/old", handler.main);
 server.use("/exercises", exerciseHandler.router)
 server.use("/profiles", profileList.router )
-server.listen(4200);
+server.listen(8080);
 console.log("http://localhost:8080");
