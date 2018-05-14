@@ -29,4 +29,14 @@ router
             res.status(201).send(info)
     })
 
+    
+      
+        search = (text$: Observable<string>) =>
+          text$.pipe(
+            debounceTime(200),
+            distinctUntilChanged(),
+            map(term => term.length < 2 ? []
+              : states.filter(v => v.toLowerCase().indexOf(term.toLowerCase()) > -1).slice(0, 10))
+          );
+
 module.exports.router = router;

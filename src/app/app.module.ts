@@ -23,6 +23,8 @@ import { GameService } from './models/game.service';
 
 import { LoginService } from "./models/login.service";
 import { AboutComponent } from './about/about.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { TypeheadComponent } from './typehead/typehead.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { AboutComponent } from './about/about.component';
     FooterComponent,
     UserComponent,
     ExercisesComponent,
-    AboutComponent
+    AboutComponent,
+    TypeheadComponent,
+
   ],
   imports: [
     BrowserModule,
